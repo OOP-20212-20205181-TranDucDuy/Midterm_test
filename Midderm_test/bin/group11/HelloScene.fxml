@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="group11.SceneController">
+   <children>
+      <Button layoutY="6.0" mnemonicParsing="false" onAction="#display" text="Start" />
+      <ScrollPane fx:id="table" layoutX="6.0" layoutY="37.0" prefHeight="550.0" prefWidth="400.0">
+         <content>
+            <VBox fx:id="box" prefHeight="550.0" prefWidth="400.0" />
+         </content>
+      </ScrollPane>
+      <WebView fx:id="browser" layoutX="406.0" layoutY="37.0" prefHeight="550.0" prefWidth="400.0" />
+   </children>
+</AnchorPane>
